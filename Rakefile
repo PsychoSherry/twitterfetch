@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-TeamApk::Application.load_tasks
+TwitterFetch::Application.load_tasks

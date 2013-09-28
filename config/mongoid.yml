@@ -1,7 +1,7 @@
 development:
   sessions:
     default:
-      database: teamapk_development
+      database: TwitterFetch_development
       hosts:
         - localhost:27017
       options:
@@ -15,7 +15,7 @@ development:
 test:
   sessions:
     default:
-      database: teamapk_test
+      database: TwitterFetch_test
       hosts:
         - localhost:27017
       options:
