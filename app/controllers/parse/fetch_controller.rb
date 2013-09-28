@@ -45,8 +45,8 @@ class Parse::FetchController < ApplicationController
 			timeto   = Time.parse(params[:to].to_s)
 
 			res = @user.tweets.where(:created_at.gte => timefrom, :created_at.lte => timeto)
-
-			render json: res.to_json
+			my_json = res.to_json(:except => [:twitteruser_id, :_id])
+			render :json => JSON.pretty_generate(JSON.parse(my_json))
 	    end	
 
 	end
