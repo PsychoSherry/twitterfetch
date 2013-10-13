@@ -1,7 +1,7 @@
 Twitter Fetch
 =============
 
-JSON API to fetch all tweets of a user in a specified Date Range. Made this for another project of mine. So just putting it here.
+JSON API to fetch tweets of a user in a specified Date Range. Made this for another project of mine. So just putting it here.
 
 
 Before Using
@@ -20,8 +20,8 @@ Before Using
   )
 ```
 
-Fetch Operations
-----------------
+Operations
+----------
 
 ### Parse
 
@@ -47,10 +47,11 @@ A few things to know
 Built using
 -----------
 
-> Ruby 1.9.3
-> Rails 3.2.3
-> Mongoid 3.0
-> Delayed Job 2.0 (for Mongoid)
+- Ruby 1.9.3
+- Rails 3.2.3
+- Mongoid 3.0
+- Delayed Job 2.0 (for Mongoid)
+- The `Twitter` Gem by [sferik](https://github.com/sferik/twitter)
 
 
 Blah Blah
